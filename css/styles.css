@@ -165,8 +165,8 @@ a:hover {
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
 	border: 1px solid #35b8be;
 	border-radius: 30px;
-	background-color: #35b8be;
-	color: #ffffff;
+	background-color: #fff;
+	color: #35b8be;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -175,9 +175,9 @@ a:hover {
 	
 }
 
-.btn-solid-lg:hover {
-	background-color: transparent;
-	color: #35b8be; /* needs to stay here because of the color property of a tag */
+.btn-solid-lg:focus {
+	background-color: #35b8be;
+	color: #fff; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -1076,7 +1076,7 @@ a:hover {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
+		padding: 1rem 0;
 		background-color: #ffffff;
 		box-shadow: none;
 		transition: all 0.2s;
@@ -1322,7 +1322,7 @@ a:hover {
 	}
 
 	.header .text-container {
-		margin-top: 6.5rem;
+		margin-top: 3.5rem;
 	}
 
 	.header .decoration-star {
@@ -1433,15 +1433,25 @@ a:hover {
 
 	/* Projects */
 	.cards-2 .card {
-		width: 37%;
+		width: 42%;
 		border:2px solid #000;
-		border-radius:30px;
+		border-radius:20px;
+		border-color: #35b8be;
 	}
 .img-fluid {
-	border: 2px solid #000;
+	/* border: 2px solid #000; */
     width: 83%;
-    border-radius: 0;
-    margin-top: 40px;
+    /* border-radius: 0; */
+    /* margin-top: 40px; */
+}
+.br-tb{
+	border-radius: 70px 0;
+}
+.br-lr{
+	border-radius:0 70px ;
+}
+.decoration-star , .decoration-star-2{
+	opacity: 0.3!important;
 }
 	.cards-2 .card:nth-of-type(3n+2) {
 		margin-right: 0.625rem;
@@ -1793,7 +1803,7 @@ cursor:pointer;
 	margin-bottom:20px;
   }
   .info_text{
-	padding-left: 10px;
+	/* padding-left: 10px; */
   }
   
 @media screen and (max-width:1450px) {
@@ -1806,9 +1816,13 @@ cursor:pointer;
 }
 .info_icon{
 	display: block;
+	width:80px;
 }
 .info_icon img{
-	width:100%;
+	width: 75%;
+}
+.info_text p{
+	font-size:14px!important;
 }
 .card-body a{
 	color: #000000;text-decoration: none

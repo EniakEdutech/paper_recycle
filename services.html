@@ -29,7 +29,28 @@
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
-    
+
+    <style>
+        .ps_container {
+            margin:120px auto;
+            width: 70%;
+        }
+        .ps_cards{
+            width: 100%;
+            padding:40px;
+            background-color:#E6E7E9;
+            margin-bottom:40px;
+            }
+            .ps_cards ul{
+            padding-left:15px;
+            }
+        @media  screen and (max-width:700px) {
+            .ps_container {
+            margin:80px auto;
+            width: 90%;
+        }
+        }
+    </style>
 </head>
 <body>
     
@@ -50,7 +71,7 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">ABOUT US</a>
+                        <a class="nav-link " aria-current="page" href="index.html">ABOUT US</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="ourcore.html">OUR CORE</a>
@@ -59,11 +80,11 @@
                         <a class="nav-link" href="machines.html">MACHINES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link  active" href="services.html">SERVICES</a>
                     </li>
                    
-                    <li class="nav-item active">
-                        <a style="color:#fff" class="nav-link" href="contactus.html">CONTACT</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">CONTACT</a>
                     </li>
                 </ul>
                 
@@ -73,112 +94,102 @@
     <!-- end of navigation -->
 
       
-    
+    <!-- Header -->
+    <header id="header" class="header">
+        <img class="decoration-star" src="images/decoration-star.svg" alt="alternative">
+        <img class="decoration-star-2" src="images/decoration-star.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                    <div class="text-container tc ">
+                        <h1 class="h1-large">
+                            <span style="color:#35b8be;padding-bottom:50px">Product / Services</span></h1>
+                            <!-- <h2  style=" font-size: 2.5rem;   line-height: 3.4rem;">  We provide  <span style="color:#35b8be">top quality recycling </span><br>
+                            equipment, including balers, conveyors <br>
+                            and shredders</h2>
+                            <br>
+                        <p class="p-large">The whole process, from design and installation to maintenance and support <br>
+                        is managed by Paper Recycle.</p> -->
+                     
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+              
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
 
-
-
-    
-
-
-    <div class="pr_bgimg " style="background-image: url('images/imageedit.png')!important; width: 100%; background-repeat: no-repeat;
-    ;background-size: auto; ">
-    <div class="w-contactus ">
-      <div class="contactus_title ">
-          <div class="title_page  "><h1>CONTACT US</h1><hr ></div>
-          
-          </div>  
-          <!-- <hr style="width:100px;text-align:left;"> -->
-    <div class="flex">
-        <form class="form">
-            <div class="flex">
-                    <input type="text" placeholder="Name" name="name"/> 
-                    <input type="text" placeholder="Email" name="email"/>
-            </div>
-                <textarea type="textarea" placeholder="Message" name="desc"></textarea>
-                <input type="submit"  >
-            </form>
-
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4483.13500438671!2d72.83257584835907!3d19.114140824030237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s71%2Cjuhu%20supreme%20%2C%20gulmohur%20road%2Cno.9%20%2C%20mumbai!5e0!3m2!1sen!2sin!4v1629835137987!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-    </div>
-    
-
-    
-        <div class="sec_info">
-            <div class="info ">
-                <div class="info_icon">
-                    <img src="images/Asset 1 (2).png" alt="">
-                </div>
-                <div class="info_text">
-                    <p>Director <br>Mr.Rajesh Behl</p>
-                </div>
-            </div>
-    
-            <div class="info">
-                <div class="info_icon">
-                    <img src="images/Asset 2 (2).png" alt="">
-                </div>
-                <div class="info_text">
-                    <p>Landline <br>022 -26204765/<br>/3507 </p>
-                </div>
-            </div>
-    
-            <div class="info">
-                <div class="info_icon">
-                    <img src="images/Asset 2 (2).png" alt="">
-                </div>
-                <div class="info_text">
-                    <p>Phone <br>+91 9820055125</p>
-                </div>
-            </div>
-    
-            <div class="info">
-                <div class="info_icon">
-                    <img src="images/Asset 3 (1).png" alt="">
-                </div>
-                <div class="info_text">
-                    <p>Email <br> info@paperrecycle.in</p>
-                </div>
-            </div>
-    
-            <div class="info mar-0">
-                <div class="info_icon">
-                    <img src="images/Asset 4 (1).png" alt="">
-                </div>
-                <div class="info_text">
-                    <p>Address<br>71,juhu supreme,<br>Gulmohur Road, No.9,<br> Mumbai 400049</p>
-                </div>
-            </div>
-    
-        </div>
+    <!-- Statistics -->
   
-    
-</div>
-    
 
-
-   
 
     
 
 
-  <!-- Footer -->
-  <div class="footer bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 d-flex">
-                <div class=" col-lg-6 col-sm-12 footer_logo">
-                    <img src="images/image (1).png" alt="">
-                </div>
+    <div class="ps_container">  
+        
+        <div class="ps_sec_2">
+            <div class="ps_cards">
+                <h5>BALERS</h5>
+                <ul>
+                    <li>Channel Balers - Fully Automatic</li>
+                    <li>Twin Ram Balers - Fully Automatic</li>
+                </ul>
+            </div>
+            <div class="ps_cards">
+                <h5>CONVEYORS</h5>
+                <ul>
+                    <li>Steel Slat Conveyors</li>
+                    <li>Rubber Belt Conveyor</li>
+                </ul>
+            </div>
+            <div class="ps_cards">
+                <h5>OPTIONAL EQUIPMENT</h5>
+                <ul>
+                    <li>GBR-1600 / 2400 Fluffer</li>
+                    <li>De-Blocker</li>
+                </ul>
+            </div>
+            <div class="ps_cards">
+                <h5>  CONSUMABLES</h5>
+                <ul>
+                    <li>Steel Bailing Wires</li>
+                </ul>
+            </div>
+            <div class="ps_cards">
+                <h5>SERVICE & SUPPORT</h5>
+                <ul>
+                    <li>Nationwide Service Provided By Skilled Engineers</li>
+                    <li>Installation, Startup & Training</li>
+                    <li>After Sales Support</li>
+                    <li>Annual Maintenance Support</li>
+                </ul>
+            </div>
+        </div>
 
+
+    </div>
+
+    
+
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex">
+                    <div class=" col-lg-6 col-sm-12 footer_logo">
+                        <img src="images/image (1).png" alt="">
+                    </div>
+
+                  
                 <div class="footer-link">
                     <ul>
                         <li>Company</li>
-                        <li><a href="article.html">About us</a></li>
-                        <li><a href="article.html">Our Core</a></li>
-                        <li><a href="article.html">Contact</a></li>
+                        <li><a href="index.html">About us</a></li>
+                        <li><a href="ourcore.html">Our Core</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
 
@@ -186,16 +197,16 @@
                     <ul>
                         <li>PRODUCTS & SERVICES</li>
                         <li><a href="machines.html">Machines</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="services.html">Services</a></li>
                     </ul>
                 </div>
-               
-            </div> <!-- end of col -->
+                   
+                </div> <!-- end of col -->
 
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of footer -->  
-<!-- end of footer -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
 
 
     <!-- Copyright -->
