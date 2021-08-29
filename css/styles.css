@@ -711,6 +711,7 @@ a:hover {
 	margin-bottom: 4.5rem;
 	margin-left: auto;
 	border: none;
+	background-color: #35b8be;
 }
 
 .cards-2 .card img {
@@ -721,7 +722,11 @@ a:hover {
 .cards-2 .card-body {
 	padding: 0;
 }
-
+.nav_btn{
+	width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /************************/
 /*     Testimonials     */
@@ -1696,7 +1701,7 @@ input{
 	border: none;
 }
 .sec_info{
-	margin-top:70px;
+	margin-top:90px;
 }
 textarea{
   width: 100%;
@@ -1816,10 +1821,10 @@ cursor:pointer;
 }
 .info_icon{
 	display: block;
-	width:80px;
+	width:68px;
 }
 .info_icon img{
-	width: 75%;
+	width: 85%;
 }
 .info_text p{
 	font-size:14px!important;
