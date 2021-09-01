@@ -1592,14 +1592,19 @@ p{
 	background-color:#35b8be;
 	display: flex;
 	flex-flow: row;
-	padding:20px 0;
+	/* padding:20px 0; */
 }
 .model_name{
-	width:30%;
+	width:38%;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid #ccc;
 }
 .type{
 	width:70%;
-	border-right: 1px solid #ccc;
+	/* border-right: 1px solid #ccc; */
 
 }
 h3{
@@ -1614,14 +1619,14 @@ h3{
 .title_name{
 	display:flex;
 	align-items: center;
-	width:70%;
+	width:65%;
 	min-height: 40px;
 	border-right:1px solid #ccc;
 	border-bottom:1px solid #ccc;
 	padding-left:10px;
 }
 .spec_value{
-	width: 30%;
+	width: 35%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
