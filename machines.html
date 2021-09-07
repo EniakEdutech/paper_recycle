@@ -31,6 +31,10 @@
     <link rel="icon" href="images/favicon.png">
     <style>
 
+      .nav_btn{
+          border:none;
+      }
+
         .img-fluid{
             /* border:1px solid #000; */
             margin-top: 20px;
@@ -57,6 +61,14 @@
 		margin:0  auto 72px  !important;
 	}
 
+        }
+        .de-blocker{
+            position: absolute;
+            top:40%;
+            left:33%;
+        }
+        .de-card{
+            position : relative;
         }
     </style>
 </head>
@@ -144,14 +156,25 @@
                 <button class="btn-solid-lg w-200"   onclick="equip()" >EQUIPMENT</button>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
-        <div class="row mt-10" id="gbseries">
+
+        <div class="row mt-10" id="banner">
+            <img src="images/banner-GB.gif" alt="">
+
+            </div>
+
+        <div class="row mt-10" id="gbseries" style="display: none;">
             <div class="col-lg-12 tc">
 
                 <!-- Card -->
                 <div class="card tc">
                     <img class="img-fluid" src="images/GB-1111F-001.gif" alt="alternative">
                     <div class="card-body">
+
+                        <h5 class="card-title tc mb-4"> <a href="specifications_gb_1111f.html">GB-1111F - High Volume Baler</a> </h5>
+                       
+
                         <h5 class="card-title tc mb-4"> <a href="#">GB-1111F - High Volume Baler</a> </h5>
+
 
                     </div>
                 </div>
@@ -218,6 +241,13 @@
         <!-- end of card -->
 
         <!-- Card -->
+
+        <div class="card tc de-card">
+            <img class="img-fluid" src="images/Fluffer - gbr1600-001.jpg" alt="alternative">
+            <div class="card-body de-blocker">
+                <h2 class="card-title tc mb-4 " style="color:#35b8be"><a href="#" style="color:#35b8be">DE-BLOCKER</a></h2>
+               
+
         <div class="card tc">
             <img class="img-fluid" src="images/Fluffer - gbr1600-001.gif" alt="alternative">
             <div class="card-body">
@@ -367,6 +397,10 @@
 
 <script>
 
+	var w = document.getElementById("banner");
+
+
+
     var y = document.getElementById("gbseries");
     var z = document.getElementById("gbtr");
     var x = document.getElementById("equip");
@@ -376,6 +410,7 @@
         y.style.display = "block" ;
         z.style.display = "none";
         x.style.display = "none";
+        w.style.display = "none";
     }
     }
     function gbtr() {
@@ -385,7 +420,13 @@
         z.style.display = "block" ;
         y.style.display = "none";
         x.style.display = "none";
+
+        w.style.display = "none";
+    } 
+    
+
     }
+
 
     }
     function equip() {
@@ -395,7 +436,13 @@
         x.style.display = "block" ;
         y.style.display = "none";
         z.style.display = "none";
+
+        w.style.display = "none";
+    } 
+    
+
     }
+
 
     }
 </script>

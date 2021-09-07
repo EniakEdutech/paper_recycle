@@ -1901,3 +1901,29 @@ cursor:pointer;
 	  margin: 0 !important;;
   }
 }
+
+.nav_btn{
+	width:100%;
+	display: flex;
+	flex-flow: row-wrap;
+	margin-bottom: 50px;
+	border-bottom:1px solid #35b8be ;
+}
+.spec{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	cursor: pointer;
+}
+.spec p{
+	margin:10px auto;
+}
+.spec:hover{
+	background-color:#35b8be;
+}
+.layout{
+	width: 100%;
+	text-align: center;
+}
