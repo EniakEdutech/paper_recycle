@@ -123,9 +123,16 @@
         <img src="images/GB-TR.gif" alt="">
     </div>
 </div>
+<div class="nav_btn container">
+    <div class="spec"  onclick="spec()" id="specbtn" style="background-color: #35b8be;">
+        <p>Specification</p>
+    </div>
+    <div class="spec"  onclick="layout()" id="laybtn">
+        <p>Layout</p>
+    </div>
+</div>
 
-
-<div class="container mt-10 spec_table">
+<div class="container mt-10 spec_table"  id="spec">
     <div class="spec_sec2">
         <div class="title_head">
             <div class="type h-100" >
@@ -471,6 +478,12 @@
         </ul>
     </div>
 </div>
+<div class="container mt-10 spec_table" id="layout" style="display: none" >
+
+    <div class="layout">
+        <img src="images/GB-1175TR-f.jpg" alt="">
+    </div>
+</div>
 </div>
 
 
@@ -546,5 +559,28 @@
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        var y = document.getElementById("spec");
+   var z = document.getElementById("layout");
+   function spec() {
+   
+   if (y.style.display === "none") {
+       y.style.display = "block" ;
+       z.style.display = "none";
+       document.getElementById("specbtn").style.backgroundColor = "#35b8be";
+       document.getElementById("laybtn").style.backgroundColor = "#fff";
+   }
+   }
+   function layout() {
+   
+   
+   if (z.style.display === "none") {
+       z.style.display = "block" ;
+       y.style.display = "none";
+       document.getElementById("laybtn").style.backgroundColor = "#35b8be";
+       document.getElementById("specbtn").style.backgroundColor = "#fff";
+      
+   } }
+   </script>
 </body>
 </html>
