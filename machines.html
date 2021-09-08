@@ -48,18 +48,8 @@
             margin-right: 0.625rem!important;
             margin-left: 5.625rem!important;
         }
-        @media screen and (max-width: 700px) {
-            .w-200 {
-    width: 100%;
-    border-radius: 25px!important;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.grid_margin{
-		margin:0  auto 72px  !important;
-	}
-
-        }
+       
+       
         .de-blocker{
             position: absolute;
             top:40%;
@@ -67,6 +57,38 @@
         }
         .de-card{
             position : relative;
+        }
+        .de-blocker_img{
+            height: 386px;
+        }
+        @media screen and (max-width: 700px) {
+            .w-200 {
+    width: 100%;
+    border-radius: 25px!important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+        .grid_margin{
+                margin:0  auto 72px  !important;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .de-blocker{
+            position: absolute;
+            top:40%;
+            left:21%;
+        }
+        .de-blocker_img{
+            height: 270px;
+        }
+        }
+        @media screen and (max-width: 362px) {
+            .de-blocker{
+            position: absolute;
+            top:40%;
+            left:15%;
+        }
+        
         }
     </style>
 </head>
@@ -235,7 +257,7 @@
 
         <!-- Card -->
         <div class="card tc de-card">
-            <a href="#" style="color:#35b8be"> <img class="img-fluid" src="images/Fluffer - gbr1600-001.jpg" alt="alternative"></a>
+            <a href="#" style="color:#35b8be"> <img class="img-fluid de-blocker_img" src="images/Fluffer - gbr1600-001.jpg" alt="alternative"></a>
             <div class="card-body de-blocker">
                 <h2 class="card-title tc mb-4 " style="color:#35b8be"><a href="#" style="color:#35b8be">DE-BLOCKER</a></h2>
                
