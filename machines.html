@@ -166,13 +166,16 @@
    <div id="projects " class="cards-2">
     <div class="container">
         <div class="row tc mb-10 nav_btn">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <button class="btn-solid-lg w-200"  onclick="gbseries()" >GB SERIES</button>
             </div> <!-- end of col -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <button class="btn-solid-lg w-200" onclick="gbtr()" >GB-TR SERIES</button>
             </div> <!-- end of col -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
+                <button class="btn-solid-lg w-200"   onclick="gbcl()" >GB-CL SERIES</button>
+            </div> <!-- end of col -->
+            <div class="col-lg-3">
                 <button class="btn-solid-lg w-200"   onclick="equip()" >EQUIPMENT</button>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -247,9 +250,9 @@
 
         <!-- Card -->
         <div class="card tc">
-            <a href="specifications_fluffer.html">  <img class="img-fluid" src="images/GB-1111F-001.gif" alt="alternative"></a>
+            <a href="specifications_fluffer.html">  <img class="img-fluid" src="images/Fluffer - gbr1600-001.gif" alt="alternative"></a>
             <div class="card-body">
-                <h5 class="card-title tc mb-4"> <a href="specifications_fluffer.html">GBR-1600 / 2400 FLUFFER</a> </h5>
+                <h5 class="card-title tc mb-4"> <a href="specifications_fluffer.html">FLUFFER</a> </h5>
                
             </div>
         </div>
@@ -313,6 +316,59 @@
                 <a href="specifications_gbtr_1575TR.html"> <img class="img-fluid" src="images/GB-TR.gif" alt="alternative"></a>
                 <div class="card-body">
                     <h5 class="card-title tc mb-4"><a href="specifications_gbtr_1575TR.html"> GB-TR Series Two Ram Baling Press - GB-1575TR</a></h5>
+                   
+                </div>
+            </div>
+            <!-- end of card -->
+    
+           
+            </div>
+            <!-- end of card -->
+    
+        </div> <!-- end of col -->
+
+        
+    <div class="row mt-10" id="gbcl" style="display: none;">
+        <div class="col-lg-12 tc">
+    
+            <!-- Card -->
+            <div class="card tc">
+                <a href="specifications_gbtr_05050TR.html"><img class="img-fluid" src="images/GB-CL7511.jpg" alt="alternative"></a>
+                <div class="card-body">
+                    <h5 class="card-title tc mb-4"> <a href="specifications_gb-7511cl.html">GB-7511CL </a> </h5>
+                   
+                </div>
+            </div>
+            <!-- end of card -->
+    
+            <!-- Card -->
+            <div class="card tc">
+                <a href="specifications_gbtr_7575TR.html"> <img class="img-fluid" src="images/GB-CL1175.jpg" alt="alternative"></a>
+                <div class="card-body">
+                    <h5 class="card-title tc mb-4"><a href="specifications_gb-1175cl.html">GB-1175CL
+                    </a></h5></h5>
+                   
+                </div>
+            </div>
+            <!-- end of card -->
+    
+            <!-- Card -->
+            <div class="card tc">
+                <a href="specifications_gbtr_1175TR.html">  <img class="img-fluid" src="images/GB-CL1011.jpg" alt="alternative"></a>
+                <div class="card-body">
+                    <h5 class="card-title tc mb-4"><a href="specifications_ gb-1011cl.html"> GB-1011CL</a></h5>
+                    
+                </div>
+            </div>
+            <!-- end of card -->
+    
+           
+            <!-- end of card -->
+            <div class="card tc grid_margin">
+                <a href="specifications_gbtr_1575TR.html"> <img class="img-fluid" src="images/GB-CL7575cl.jpg" alt="alternative"></a>
+                <div class="card-body">
+                    <h5 class="card-title tc mb-4"><a href="specifications_gb-7575cl.html"> GB-7575CL
+                    </a></h5>
                    
                 </div>
             </div>
@@ -407,7 +463,9 @@
 	var w = document.getElementById("banner");
     var y = document.getElementById("gbseries");
     var z = document.getElementById("gbtr");
+    var v = document.getElementById("gbcl");
     var x = document.getElementById("equip");
+ 
     function gbseries() {
     
     if (y.style.display === "none") {
@@ -415,6 +473,7 @@
         z.style.display = "none";
         x.style.display = "none";
         w.style.display = "none";
+        v.style.display = "none";
     }
     }
     function gbtr() {
@@ -425,8 +484,19 @@
         y.style.display = "none";
         x.style.display = "none";
         w.style.display = "none";
+        v.style.display = "none";
     } 
     
+    }
+    function gbcl() {
+    
+    if (v.style.display === "none") {
+        v.style.display = "block" ;
+        z.style.display = "none";
+        x.style.display = "none";
+        w.style.display = "none";
+        y.style.display = "none";
+    }
     }
     function equip() {
     
@@ -436,6 +506,7 @@
         y.style.display = "none";
         z.style.display = "none";
         w.style.display = "none";
+        v.style.display = "none";
     } 
     
     }
