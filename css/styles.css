@@ -1927,3 +1927,48 @@ cursor:pointer;
 	width: 100%;
 	text-align: center;
 }
+@media (max-width: 500px){
+	.layout img{
+		width: 100%;
+	}
+	.spec {
+		width: 40%;
+	}	
+	.spec_value {
+		width: 57%;
+	}
+	.media_query p{
+		font-size:14px;
+	}
+	.title_name {
+
+		width: 43%;
+}
+.model_name {
+    width: 93%;
+
+}
+}
+
+@media (max-width: 375px){
+	.spec_value {
+		width: 57%;
+	}
+	.media_query p{
+		font-size:14px;
+	}
+	.title_name {
+
+		width: 43%;
+}
+.model_name {
+    width: 93%;
+
+}
+}
+
+@media (max-width: 320px){
+	.media_query p {
+		font-size: 12px;
+	}
+}
