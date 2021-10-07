@@ -1797,6 +1797,7 @@ cursor:pointer;
 }
 .spec_table {
 	margin-bottom: 5rem;
+	overflow: auto;
 }
 .footer-link li{
 	cursor: pointer;
@@ -1928,6 +1929,16 @@ cursor:pointer;
 	text-align: center;
 }
 @media (max-width: 500px){
+	.spec_table {
+		margin-bottom: 5rem;
+		overflow: auto;
+	}
+	.spec_sec2 {
+		/* margin: 120px 0; */
+		border: 1px solid #ccc;
+		width: 650px;
+		overflow: auto;
+	}
 	.layout img{
 		width: 100%;
 	}
@@ -1935,36 +1946,26 @@ cursor:pointer;
 		width: 40%;
 	}	
 	.spec_value {
-		width: 57%;
+		width: 60%!important;
 	}
 	.media_query p{
 		font-size:14px;
 	}
 	.title_name {
+		width: 40%!important;
+	}
+	.model_name {
+		width: 93%;
 
-		width: 43%;
-}
-.model_name {
-    width: 93%;
-
-}
+	}
 }
 
 @media (max-width: 375px){
-	.spec_value {
-		width: 57%;
-	}
+	
 	.media_query p{
 		font-size:14px;
 	}
-	.title_name {
-
-		width: 43%;
-}
-.model_name {
-    width: 93%;
-
-}
+	
 }
 
 @media (max-width: 320px){
