@@ -330,7 +330,7 @@ a:hover {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 5.9rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -358,6 +358,7 @@ a:hover {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
+	padding-left: 10px;
 	color: #191e47;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -1817,6 +1818,7 @@ cursor:pointer;
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
 	color: #000;
+	background-color: #35b8be;
 }
 	.spec_banner img{
 		width:100%;
